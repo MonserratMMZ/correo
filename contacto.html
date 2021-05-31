@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacto</title>
+</head>
+<body>
+	<h1><center>Contacto</center></h1>
+
+<style type="text/css">
+body{
+  background: url(Imagen8.jpg);
+}
+
+p{
+  font-size: 45px;
+  font-family: 'Bebas Neue';
+  color: #fff;
+}
+
+h1{
+  background: #614F45;
+  font-family:'Impact';
+  font-size: 66px;
+  color: #fff;
+}
+
+button{
+  color: #fff;
+  width: 15%;
+  height: 6%;
+  font-family: 'Bebas Neue';
+  font-size: 32px;
+  background-color: #614F45;
+  border-color:#614F45;
+}
+
+.controls{
+  font-family: 'Agency FB';
+  font-size: 32px;
+  width: 30%;
+}
+
+.imagen{
+  background: #614F45;
+  float: right;
+  position: absolute;
+  left: 62%;
+  top: 20%;
+  border-radius: 20px;
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Bebas Neue';
+  color: #fff;
+  border-radius: 20px;
+}
+
+.button{
+  position: absolute;
+  left: 84%;
+  top: 125%;
+}
+
+</style>
+
+	<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Nombre : <input class ="controls" type="text" name="nombre" /></label>   
+  </p>
+  <p>
+    <label>Email: <input class ="controls" type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Asunto: <input class ="controls" type="text" name="asunto" />
+    </label>
+  </p>
+  <p>
+    <label>Mensaje:<br> <textarea class ="controls" name="mensaje" rows = "6" cols = "60"></textarea></label>
+  </p>
+  <p>
+  	<section class="imagen">
+  			<img src="logoo.png">
+  			<center>
+  			<h3>PANADERIA EL BLONDY</h3>
+  			<h3>"Por que es pan para la familia"</h3>
+  			</center>
+	</section>
+	</p>
+    		<button type="submit">Enviar</button>
+</form>
+			<a href="../index.html"><button type="submit" class="button">Regresar</button>		
+</body>
+</html>
